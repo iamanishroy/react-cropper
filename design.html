@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cropper .panel {
+        text-align: center;
+    }
+
+    .cropper .panel img {
+        width: 90%;
+        height: auto;
+    }
+
+    .cropper p {
+        margin: 10px  20px;
+    }
+
+    .cropper button {
+        height: 2.5rem;
+        padding: 0 4rem;
+        font-size: 1rem;
+        color: aliceblue;
+        background-color: rgb(173, 10, 111);
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
+
+<body>
+
+    <div class="cropper">
+        <div class="panel">
+            <img src="./profile-square-min.jpg  " alt="">
+        </div>
+        <p>crop the image to upload</p>
+        <button>Upload</button>
+    </div>
+
+</body>
+
+</html>

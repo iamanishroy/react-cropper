@@ -1,7 +1,7 @@
 import "./App.css";
-import Cropper from "./component/cropper";
+import NewCropper from "./component/NewCropper";
 function App() {
-  return <Cropper />;
+  return <NewCropper />;
 }
 
 export default App;
